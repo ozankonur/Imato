@@ -151,7 +151,7 @@ export default function App() {
             showsHorizontalScrollIndicator={false}
             showsVerticalScrollIndicator={false}
             nestedScrollEnabled={true}
-            style={{height: 500, marginBottom: 100}}
+            style={{height: 750, marginBottom: 100}}
             data={images}
             renderItem={renderItem}
             keyExtractor={(item) => item.id}
